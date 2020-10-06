@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="main.css" type="text/CSS" rel="stylesheet" />
+    <title>信義會監督張復民牧師及其團隊之座談會</title>
+    
+  </head>
+  <body>
+      <!--表單標題開始-->
+    <h1 class="text-center" style=margin-top:120px; style=color:darkviolet;>信義會監督張復民牧師及其團隊之座談會</h1>
+    <h3 class="text-center mt-5" style=color:rgb(110,21,226);>日期:2020年10月18日</h3>
+    <h3 class="text-center mt-5" style=color:rgb(110,21,226);>地點:信義會靈糧堂</h3>
+    <H5 class="text-center mt-5" style=color:rgb(110,21,226);>台南市永康區復興路246巷7號 06-3133100</H5>
+ 
+    <div class="container mt-5">
+    
+     <!-- 表單返回頁，記得在表單加「 target='returnWin' 」 -->
+     <iframe name="returnWin" style="display: none;" onload="this.onload=function(){window.location='ok1.html'}"></iframe>
+        
+        <!--表單問題中的傳送碼-->
+        <form target='returnWin' role=form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSf7-xGrSDcEsDon6CE_UGPkidzzBi7FVMRrrk-RkP-CRNWxoA/formResponse" method="post" id="myForm">
+            <div class="row">  
+            <!--姓名--> 
+              <div class="col-sm-6">
+                    <div class="form-group">
+                        <label><span class="title">姓名</span><span class="text-primary">*(請填您的姓名)</span></label>
+                        <input type="text" class="form-control" name="entry.725386323" id="725386323" maxlength="6" />
+                    </div>
+                </div>
+          
+
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <label><span class="title">服事職分</span><span class="text-primary">*</span></label>
+                        <select name= "entry.1298340678" id="1298340678" value="" class="form-control" size="1">
+                            <option value = "牧者">牧者</option>
+                            <option value = "區長">區長</option>
+                            <option value = "小組長">小組長</option>
+                            <option value = "教會同工">教會同工</option>
+                            <option value = "其他">其他</option>
+                        </select>                    
+                    </div>
+                </div>
+            </div>
+            <!--現居地--> 
+            <div class="col-sm-12">
+                <div class="form-group">
+                    <label><span class="title">堂會</span><span class="text-primary">*</span></label>                  
+                    <select name="entry.1881653649" id="1881653649"value="" class="form-control" size="1">
+                        <option value = "台南大道善牧堂">台南大道善牧堂</option> 
+                        <option value = "台南善牧堂">台南善牧堂</option> 
+                         <option value = "台南真理堂">台南真理堂</option> 
+                         <option value = "台南救主堂">台南救主堂</option> 
+                        <option value = "台南靈糧堂">台南靈糧堂</option> 
+                         <option value = "台南恩道堂">台南恩道堂</option> 
+                    </select>
+                </div>
+            </div>  
+
+            <div class="col-sm-12">
+                <div class="form-group">
+                    <label><span class="title">座談會</span><span class="text-danger">*</span></label>
+                    <H5>下午1:00 『細胞小組區長/組長 Q&A』 對象：牧長推薦</H5>
+                    <H5>下午1:45 『與監督有約』 對象：學生輔導/大專生組長</H5>
+                    <select name="entry.537575936" id="537575936" value="" class="form-control" size="1">  
+                        <option value = ""></option>            
+                        <option value = "『細胞小組區長/組長 Q&A』">『細胞小組區長/組長 Q&A』</option>
+                        <option value = "『與監督有約』">『與監督有約』</option>
+                   </select>   
+                </div>
+            </div>
+                    
+               <hr>
+            
+            <div class="text-center pb-3">
+                <button type="submit" class="btn btn-primary">送出</button>
+              
+            </div>
+
+        </form>
+    </div>
+
+    <!--表單標題結束-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    
+    <!-- 表單驗證 -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.min.js"></script>
+  
+    <script>
+        $(function(){
+            $("#myForm").validate({
+                submitHandler: function(form){
+                    form.submit();
+                },
+                rules: {
+                    'entry.725386323' : {
+                        required: true
+                     },
+                     'entry.1298340678':{
+                        required:true,
+                        
+                    },'entry.1881653649' :{
+                        required:true,
+                        
+                  
+                    },  'entry.537575936':{
+                        required:true,
+                        
+                    
+
+                    }
+                },  
+                     
+                
+                messages: {
+                    'entry.725386323' : {
+            required: "必填"
+          },
+          'entry.1298340678' : {
+            required: "必選"
+          },
+          'entry.1881653649' : {
+            required: "必選"
+        },
+          
+          
+          'entry.537575936' : {
+            required: "必選"
+                    }
+                }
+            });
+
+        });
+
+    </script>
+    </body>
+</html>
